@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: #E6E6E6;
+}
+.p{
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 1rem;
+}
+td{
+	vertical-align:middle;
+		background-color: #E6E6E6;
+}
+.topthing{
+	margin-left:auto;
+	margin-right:auto;
+	border:none;
+}
+.main{
+position:relative;
+height:100%;
+display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:800px;
+}
+.pic{
+	padding:5px;
+	width:49%;
+	border-radius:10px;
+}
+.left{
+padding:5px;
+width:33%;
+border-radius:10px;
+display:block;
+position:relative;
+
+background-color:#CF3}
+.panel2{
+
+	margin:auto;
+	display:block;
+	position:relative;
+	background-color:#0F0;
+
+margin-left:auto;
+margin-right:auto;}
+.things{
+	float:right;
+	width:66%;
+	background-color:#00F;
+border-radius:10px;
+}
+.cetered{
+	display:block;
+	position:absolute;
+	width:100%;
+	margin-leftt:auto;
+	margin-right:auto;}
