@@ -4,7 +4,7 @@
 <head> 
 <meta charset="utf-8"> 
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-<title>Foundation 5</title> 
+<title>Sean McGregor</title> 
 <!-- If you are using CSS version, only link these 2 files, you may add app.css to use for your overrides if you like. --> <link rel="stylesheet" href="css/normalize.css"> 
 <link rel="stylesheet" href="css/foundation.css"> 
 <link rel="stylesheet" href="css/portfolio.css"> 
@@ -41,14 +41,28 @@
     <p>Hello I'm Sean.</p>
     </div>
     <div class="things">
-    <a href="#"><img src="img/bagthumb.jpg"  class="pic" /></a>
-    <a href="#" ><img src="img/bagthumb.jpg"  class="pic" /></a>
-    <a href="#" ><img src="img/bagthumb.jpg"  class="pic"  /></a>
-    <a href="#" ><img src="img/bagthumb.jpg"  class="pic" /></a>
-    <a href="#" ><img src="img/bagthumb.jpg"  class="pic"  /></a>
-    <a href="#" ><img src="img/bagthumb.jpg"  class="pic" /></a>
+    <label for="nike"><img src="img/bagthumb.jpg"  class="pic" /></label>
     </div>
    </div>
 </div>
+
+<input class="modal-state" id="nike" type="checkbox" />
+<div class="modal">
+  <label class="modal__bg" for="nike"></label>
+  <div class="modal__inner">
+    <label class="modal__close" for="nike"></label>
+    <div class="centered">
+     <div class="left">
+      <h2>Nike Bag</h2>
+      <p>stuff stuff</p>
+     </div>
+    <div class="things2">
+    <img src="img/bagthumb.jpg"  class="pic" />
+    </div>
+   </div>
+  </div>
+</div>
+
+
 </body> 
 </html>
