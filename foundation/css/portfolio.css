@@ -1,16 +1,22 @@
 @charset "utf-8";
 /* CSS Document */
 body{
-	background-color: #E6E6E6;
+	background-color: #ccc;
 }
-.p{
+h2{
+	color:#F00;
+		font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
+}
+p{
 	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
-  font-size: 1rem;
+  font-size: .9rem;
+  color:#CCC;
 }
 td{
 	vertical-align:middle;
-		background-color: #E6E6E6;
+		background-color:#ccc;
 }
 .topthing{
 	margin-left:auto;
@@ -29,16 +35,18 @@ display:block;
 .pic{
 	padding:5px;
 	width:49%;
-	border-radius:10px
-;
+	border-radius:10px;
+	float:left;
 }
 .left{
-padding:5px;
+padding-right:15px;
+padding-left:15px;
+padding-top:5px;
 width:33%;
 border-radius:10px;
 display:block;
 position:relative;
-background-color:#CF3}
+background-color:#222}
 
 .left2{
 padding:5px;
@@ -46,7 +54,7 @@ width:33%;
 border-radius:10px;
 display:block;
 position:relative;
-background-color:#CF3}
+background-color:#009933}
 .panel2{
 
 	margin:auto;
@@ -59,22 +67,28 @@ margin-right:auto;}
 .things{
 	float:right;
 	width:66%;
-	background-color:#00F;
+	background-color:#222;
 border-radius:10px;
 }
 .things2{
 	float:right;
-	width:66%;
-	background-color:#00F;
+	width:60%;
+	background-color:#222;
 border-radius:10px;
+margin-left:10px;
+padding-top:20px;
+
 }
 .cetered{
-	display:block;
-	position:absolute;
-	width:100%;
-	margin-leftt:auto;
-	margin-right:auto;}
+	display: block;
+	position: absolute;
+	width: 100%;
+	margin-leftt: auto;
+	margin-right: auto;
+
+}
 	.centered{
+	height:90%;
 	display:block;
 	margin-top: 20px;
 	position:absolute;
@@ -92,6 +106,7 @@ border-radius:10px;
   text-align: left;
   background: rgba(0,0,0, .9);
   transition: opacity 1s ease;
+
 }
 
 .modal__bg {
@@ -125,11 +140,11 @@ border-radius:10px;
   left: 0;
   width: 50%;
   margin: auto;
-  overflow: auto;
-  background: #fff;
+
+  background:#999;
   border-radius: 5px;
   padding: 1em 2em;
-  height: 50%;
+  height: 94%;
 }
 
 .modal__close {

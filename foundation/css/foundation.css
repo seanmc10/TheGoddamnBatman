@@ -1102,7 +1102,7 @@ button, .button {
   color: black;
   transition: background-color 300ms ease-out; }
   button:hover, button:focus, .button:hover, .button:focus {
-    background-color: #FF0000; }
+    background-color: #009933; }
   button:hover, button:focus, .button:hover, .button:focus {
     color: white; }
   button.secondary, .button.secondary {
